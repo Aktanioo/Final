@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Контакты - EcoProtect</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <div class="container">
+        <a class="navbar-brand text-white" href="index.html">EcoProtect</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Главная</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about.html">О нас</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="problems.html">Проблемы</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="solutions.html">Решения</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Контактная информация -->
+  <section class="contact text-center py-5">
+    <div class="container">
+      <h1>Контакты</h1>
+      <p>Свяжитесь с нами через одну из следующих форм:</p>
+      <p><strong>Email:</strong> contact@ecoprotect.org</p>
+      <p><strong>Телефон:</strong> +1 (234) 567-890</p>
+
+      <!-- Форма обратной связи -->
+      <h2 class="mt-5">Напишите нам</h2>
+      <form action="#" method="POST">
+        <div class="mb-3">
+          <label for="name" class="form-label">Ваше имя</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Ваш email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Сообщение</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success">Отправить</button>
+      </form>
+
+      <!-- Карта -->
+      <h2 class="mt-5">Наше местоположение</h2>
+      <div class="map-container" style="position: relative; overflow: hidden; padding-top: 56.25%; height: 0; max-width: 100%; height: 300px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224567.7536181872!2d77.0366!3d38.8954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2zMzjCsDU2JzM0LjAiTiA3N8KwMjUnMjIuOSJX1g6pgnrMbEmhVzHxoAXWGA1Q3LxvG52fS-0dt7EZaKhjd5No9KrW2F-QbQq7bvmjA0gYv5ft2sHCWQobP8DqI5BjcB7WoXM==" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Подвал -->
+  <footer class="bg-dark py-3 text-white text-center">
+    <p>&copy; 2024 EcoProtect. Все права защищены.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
